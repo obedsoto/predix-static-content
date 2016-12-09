@@ -8,4 +8,16 @@ Includes the following CDNs
 
 CSS folder
 
-`$ cf push <unique route> -m 64M`
+**Project files:**
+
+`index.html`
+`css/starter-template.css`
+
+Static content (HTML, CSS, JSS)
+
+`manifest.yml`
+
+Manifest file to tell Cloud Foundry how to push and deploy our application.
+
+
+`$ cf push`

@@ -1,0 +1,8 @@
+---
+applications:
+  - name: static-content # rename at your convenience
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git # static build pack
+    memory: 64M
+    random-route: true # creates a URL that includes the app name and random words
+    # Some buildpacks, such as Python, that work on a variety of frameworks, do not attempt to provide a default start command.
+    #command: python hello-world.py # required if Procfile is not provided
