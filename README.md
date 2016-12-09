@@ -1,10 +1,11 @@
 # predix-static-content
-Static content instruction to Predix
+Nicer static content instruction to Predix
 
-`$ echo 'Hello World' > index.html`
+Includes the following CDNs
 
-`$ touch Staticfile`
+* AngularJS 
+* Bootstrap
 
-Cloud Foundry requires a file named Staticfile in the root directory of the app to use the Staticfile buildpack with the app.
+CSS folder
 
 `$ cf push <unique route> -m 64M`
